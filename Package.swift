@@ -15,8 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "AccountManager",
-            dependencies: [],
-            
+            dependencies: []
         )
     ]
 )
