@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="XCORE" version="1.0">
+    <entity name="Account" syncable="YES">
+        <attribute name="accountName" attributeType="String" syncable="YES"/>
+        <attribute name="username" attributeType="String" syncable="YES"/>
+        <attribute name="passwordHash" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" attributeType="Date" syncable="YES"/>
+        <attribute name="notes" attributeType="String" syncable="YES"/>
+        <attribute name="category" attributeType="Integer32" defaultValueString="0" syncable="YES"/>
+        <attribute name="iconName" attributeType="String" syncable="YES"/>
+    </entity>
+</model>
